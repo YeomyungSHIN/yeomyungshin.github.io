@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-#  get 'home/index'
-#  get 'home/drink'
+  get 'home/index'
+  get 'home/drink'
   
-  get 'index' => "home#index"
-  get "drink" => "home#drink"
+#  get 'index' => "home#index"
+#  get "drink" => "home#drink"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
